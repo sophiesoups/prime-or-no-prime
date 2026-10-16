@@ -4,7 +4,7 @@ while True:
     number = int(input("Enter a number: "))
     prime = True
 
-    for i in range(2, math.ceil(number)):
+    for i in range(2, math.ceil(number / 2)):
         if number % i == 0:
             prime = False
             break
